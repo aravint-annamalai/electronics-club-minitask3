@@ -15,3 +15,10 @@ Here is a [tutorial](https://maker.pro/arduino/tutorial/how-to-interface-arduino
 As said in the tutorial link above, the MPU 6050 sensor is comparatively cheaper than its alternatives, so the budget constraint is met. 
 Also, it performs better, so it is a win-win situation in terms of budget optimization and performance enhancement.
 
+## Microcontroller:
+Arduino UNO or Arduino MEGA as we use quite a lot of sensors and thus, we require a lot of pins. If there is sufficient budget, we can very well use Arduino MEGA.
+
+[This discussion](https://forum.arduino.cc/index.php?topic=545257.0) gives us a method to connect multiple IMU sensors (in particular, MPU6050, which is what we plan to use). The funda here is that we use a different address to the IMU sensor which we are currently interested in.
+
+## Wiring guidelines:
+
