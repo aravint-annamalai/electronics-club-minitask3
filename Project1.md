@@ -11,3 +11,5 @@ Size and power. It should be small as the entire circuitry should be within the 
 
 ## My changes in implementation:
 When you wear it, the push button switch gets closed and the ring lights up. After lighting up, the push button no longer rubs our skin as there will be a gap between the push button and the finger. After removing the ring, we can manually power off by opening the push button, which is a really small task in my opinion and it is not deviating much from the problem statement.
+
+Other aspects of the circuitry like usage of button cell and soldering it all together without using wires are perfectly fine and do not necessitate any modifications.
