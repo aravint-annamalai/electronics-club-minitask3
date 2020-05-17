@@ -21,4 +21,4 @@ Arduino UNO or Arduino MEGA as we use quite a lot of sensors and thus, we requir
 [This discussion](https://forum.arduino.cc/index.php?topic=545257.0) gives us a method to connect multiple IMU sensors (in particular, MPU6050, which is what we plan to use). The funda here is that we use a different address to the IMU sensor which we are currently interested in.
 
 ## Wiring guidelines:
-
+Since we have 18 motors and 360 degrees, all the wiring, if possible, could be confined within 20 degrees, for each motor. If we are able to do this, then there will be minimal chances of wires being tangled.
